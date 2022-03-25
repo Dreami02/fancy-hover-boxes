@@ -41,3 +41,15 @@ bottom: 0;
   filter: grayscale(100%);
   transition: all 0.2s linear;
 }
+
+.hover-box:hover img,
+.hover-box:focus img {
+ filter: grayscale(0);
+ transform: scale(1.1);
+}
+
+.hover-box-caption {
+  background-image: linear-gradient(to bottom,)
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+  transition: all .2s linear;
+}
